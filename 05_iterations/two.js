@@ -1,0 +1,14 @@
+        //while loop
+
+// let index = 0
+// while (index<= 10) {
+//     console.log(`value of index is ${index}`);
+//     index = index + 2
+//}
+
+       //do while loop....pehly kam ho ga phir condition check ho gi
+let score = 1
+    do{
+        console.log(`score is ${score}`);
+        score++
+    }while(score <=10); 
