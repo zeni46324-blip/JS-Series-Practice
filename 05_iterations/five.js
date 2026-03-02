@@ -19,10 +19,10 @@ const coding =["js","rb","cpp"]
 // }
 // coding.forEach(printMe)
 
- coding.forEach(  (item,index,arr) => {
-    console.log(item,index,arr);
+//  coding.forEach(  (item,index,arr) => {
+//     console.log(item,index,arr);
     
- } )//ForEach k pass bas aik hi parameter ka access nhi hota mean sirf item ka nhi item,index,arr(array list)
+//  } )//ForEach k pass bas aik hi parameter ka access nhi hota mean sirf item ka nhi item,index,arr(array list)
 
 
 
@@ -43,8 +43,7 @@ const myCoding = [
     }
 ]
 
-
-
-
-
- //yahan hum ny array main jo object hain unka access kitni asani se ly liya hy
+myCoding.forEach(  (item) => {
+console.log(item.languageName)
+console.log(item.languageFileName)
+}) //yahan hum ny array main jo object hain unka access kitni asani se ly liya hy
